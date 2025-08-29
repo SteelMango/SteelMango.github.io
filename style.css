@@ -1,0 +1,87 @@
+body { 
+    font-family:Helvetica;
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+#blog {
+    margin: 10px;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    bottom: 0px;
+    left: 40px;
+
+}
+
+#home_img {
+    width: 60px;
+    margin: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    bottom: 0px;
+    left: 40px;
+    
+}
+
+#top_bar {
+    background-color: #121212;
+    position: fixed;
+    padding-right: 1000px;
+    top: 0px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    
+}
+
+#top_bar a {
+    color: #FFFFFF ;
+    top: 5px;
+    right: 10px;
+     
+}
+
+#top_bar a:hover {
+    color: #BB86FC;
+
+}
+
+
+
+
+#projects {
+    margin: 10px;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    bottom: 0px;
+    left: 40px;
+
+}
+
+#linkedin{
+    display: block; 
+    position: relative;       
+    margin: 0px auto;  
+    left: 1000px;
+    top: 0px;
+    
+}
+
+#github {
+    display: block; 
+    position: relative;       
+    margin: 0px auto;  
+    left: 1020px;
+    top: -0pxpx;
+}
+
+
+h1 {
+    font-family:Helvetica ;
+}
+
