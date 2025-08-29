@@ -1,2 +1,2 @@
 # SteelMango.github.io
-GitHub Pages
+Website to host my portfolio and projects.
