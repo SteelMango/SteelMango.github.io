@@ -22,8 +22,10 @@ One of the problems is how the current repository (where folders and files are o
 
 ![Screenshot of the Repository without the home.html and _layout folder](/assets/images/repo_without_layouts.png)
 
-My reasoning for not downloading the Minima template is due to Abstraction. In Computer Science Education, there is a concept called Computational Thinking. In simple terms, breaking down a problem into managable steps and problem solving. Abstraction is the process of removing irelevant details in order to solve a problem and since this post is aimed for the general audience, I want to minimise the amount of confusion to setting up a website.
+My reasoning for not downloading the Minima template is due to Abstraction. In Computer Science Education, there is a concept called Computational Thinking. In simple terms, breaking down a problem into managable steps and problem solving. Abstraction is the process of removing irelevant details in order to solve a problem and since this post is aimed for the general audience, I want to minimise the amount of confusion to setting up a website. (A theme I would like to continue in future posts)
 
 [If you want to read more about Computational Thinking, here is a great paper written by Jeannette M. Wing](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
 
 ![Screenshot of Minima's GitHub Repository](/assets/images/minima_repo.png)
+
+Looking at Minima's GitHub repo, a beginner would be so confused with the different folders and the user would need to know basic command line Git commands to be able to get all these files to their computer. That is why in the 'How you can Build Your own Website' section, I avoid using Git CLI (cli = Command Line Interface) and instead use a graphical based Git.
