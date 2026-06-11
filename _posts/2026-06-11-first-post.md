@@ -22,8 +22,8 @@ Setting up an Apache HTTP server requires a computer to always be online and a l
 
 ## Setting Up the GitHub Account for GitPages
 Since I already owned a GitHub account, the next step I needed to do is to understand how I would make a GitHub Pages website. GitHub has a multitude of handy documentation pages, that guides you step by step on setting up your own GitHub Page. 
-![GitHub Documents](https://docs.github.com/en/pages/quickstart)
-![Create Your GitHub Account here](https://github.com/signup?source=login)
+[GitHub Documents](https://docs.github.com/en/pages/quickstart)
+[Create Your GitHub Account here](https://github.com/signup?source=login)
 
 
 
