@@ -16,9 +16,9 @@ Before I did any website building, I needed to plan how I would make a live webs
 
 1. GitHub Pages
 2. Set up an Apache HTTP server
-3. Wix 
+3. Wix/Wordpress
 
-
+Setting up an Apache HTTP server requires a computer to always be online and a lot of setting up to do, which has a high barrier to entry and Wix/Wordpress requires a subscription. GitHub Pages on the other hand does not rely on my computer to always be online since it is hosted from GitHubs servers and uses markdown (MD) to create pages.
 
 ## How you can build your own website
 Under development!
