@@ -1,0 +1,31 @@
+---
+---
+
+@import "minima";
+
+.post-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: $spacing-unit;
+}
+
+.post-thumbnail-link {
+  flex-shrink: 0;
+}
+
+.post-thumbnail {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+.post-list-text {
+  flex: 1;
+
+  h3 {
+    margin-top: 0;
+  }
+}
