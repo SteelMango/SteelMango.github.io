@@ -20,8 +20,12 @@ Before I did any website building, I needed to plan how I would make a live webs
 
 Setting up an Apache HTTP server requires a computer to always be online and a lot of setting up to do, which has a high barrier to entry and Wix/Wordpress requires a subscription. GitHub Pages on the other hand does not rely on my computer to always be online since it is hosted from GitHubs servers and uses markdown (MD) to create pages.
 
-## How you can build your own website
-Under development!
+## Setting Up the GitHub Account for GitPages
+Since I already owned a GitHub account, the next step I needed to do is to understand how I would make a GitHub Pages website. GitHub has a multitude of handy documentation pages, that guides you step by step on setting up your own GitHub Page. 
+![GitHub Documents](https://docs.github.com/en/pages/quickstart)
+![Create Your GitHub Account here](https://github.com/signup?source=login)
+
+
 
 ## The "Subscribe via RSS" Link I Never Wrote
 ![Screenshot of the Subscribe via RSS](/assets/images/subrss.png)
