@@ -14,19 +14,21 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li class="post-list-item">
-        {%- if post.image -%}
         <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
+          {%- if post.image -%}
           <img class="post-thumbnail" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+          {%- else -%}
+          <div class="post-thumbnail post-thumbnail--placeholder"></div>
+          {%- endif -%}
         </a>
-        {%- endif -%}
         <div class="post-list-text">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h3>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
         </div>
       </li>
       {%- endfor -%}
