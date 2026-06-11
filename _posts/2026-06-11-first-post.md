@@ -9,9 +9,19 @@ categories: blog
 ![Screenshot of my finished GitHub Pages site](/assets/images/first_website.png)
 
 I built a live website for free without touching any web development languages, messing around with HTTP servers, or paying for a domain.
-This blog exists to document my journey learning computer science and cyber security. Although my background is technical, I'm writing for everyone: I'll keep jargon to a minimum so that readers from any background can follow along.
+This blog exists to document my journey learning Computer Science and Cyber Security. Although my background is technical, I'm writing for everyone: I'll keep jargon to a minimum so that readers from any background can follow along.
+
+## Choosing How to Host a Free Website 
+Before I did any website building, I needed to plan how I would make a live website that was completely free and with minimal web development languages. I wanted to dedicate more time to actually making projects rather than messing around with web development. Here were the current options:
+
+1. GitHub Pages
+2. Set up an Apache HTTP server
+3. Wix 
+
+
 
 ## How you can build your own website
+Under development!
 
 ## The "Subscribe via RSS" Link I Never Wrote
 ![Screenshot of the Subscribe via RSS](/assets/images/subrss.png)
@@ -28,4 +38,4 @@ My reasoning for not downloading the Minima template is due to Abstraction. In C
 
 ![Screenshot of Minima's GitHub Repository](/assets/images/minima_repo.png)
 
-Looking at Minima's GitHub repo, a beginner would be so confused with the different folders and the user would need to know basic command line Git commands to be able to get all these files to their computer. That is why in the 'How you can Build Your own Website' section, I avoid using Git CLI (cli = Command Line Interface) and instead use a graphical based Git.
+Looking at Minima's GitHub repo, a beginner would be so confused with the different folders and the user would need to know basic command line Git commands to be able to get all these files to their computer. That is why during the development of the website, I avoided using Git CLI (cli = Command Line Interface) and instead use a graphical based Git.
