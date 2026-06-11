@@ -1,6 +1,9 @@
 theme: minima
 title: SteelMango
-description: Testing 
+description: Testing
 header_pages:
   - projects.md
   - about.md
+
+minima:
+  hide_site_feed_link: true
