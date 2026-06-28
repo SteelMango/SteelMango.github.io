@@ -7,4 +7,4 @@ image: assets\images\liquid_display.jpg
 ---
 
 ![Image of Liquid Display](/assets/images/liquid_display.jpg)
-Testing website!
+Testing website
