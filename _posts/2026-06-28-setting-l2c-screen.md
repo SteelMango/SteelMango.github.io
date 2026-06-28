@@ -15,7 +15,7 @@ I lied, the screen is actually £3.46 upon editing this post. I was scrolling th
 
 Why a IIC LCD1602?, Because the display module has a little backpack called an ICC. An ICC module helps reduce the amount of wires to connect to the display and additionally allows us to use jumper wires. Without the ICC we would need to solder the display module. In the image bellow, there are three main types of jumper wires, ideally for the project, we would want male to female or female to female wires because the pins on the ICC make it hard for male to male wires to attach to it.
 
-![Wires](/assets/images/DuPont-Wire-40-Pin-Male-to-Female-X-3-Jumper-Wires.webp.avif)
+![Wires](/assets/images/DuPont-Wire-40-Pin-Male-to-Female-X-3-Jumper-Wires.webp.avif)<br>
 
 
 
@@ -23,10 +23,11 @@ Why a IIC LCD1602?, Because the display module has a little backpack called an I
 
 ![Pinout diagram of ESP32](/assets/images/pinout_esp32.png)
 
-Now depending on what ESP32 you have, you would need to check out your specifc ESP32 pinout reference. A pinout reference tells you what each pin on the ESP32 does, for example on the ESP32 Devkit v1, the pin "GND" is ground. 
-Once you have the display module, if you turn it around and see the little backpack (ICC) I mentioneD earlier, you'll see four pins. 
+Now depending on what ESP32 you have, you would need to check out your specifc ESP32 pinout reference. A pinout reference tells you what each pin on the ESP32 does, for example on the ESP32 Devkit v1, the pin "GND" is ground. This becomes important in a bit to attach the display module to the ESP32.
 
 ![ICC of the display](/assets/images/ICC.webp)
+
+Once you have the display module, if you turn it around and see the little backpack (ICC) I mentioned earlier, you'll see four pins. 
 
 1.  GND
 2.  VCC
