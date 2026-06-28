@@ -40,4 +40,4 @@ If you have a ESP32 Devkit, connect to these pins:
 3.  SDA = D21
 4.  SCL = D22
 
-If you 
+If you own a different type of ESP32, read your specific pinout diagram, find what pin equals to the VCC, SDA and SCL and connect them.
