@@ -11,13 +11,13 @@ image: /assets/images/liquid_display.jpg
 In this post I explain simply how to set up a L2C Display module without soldering and staying to the breadboard/jumperwires, ideal for beginners who own a ESP-32.
 
 ## Where I Brought the Screen 
-I lied, the screen is actually £3.46 upon editing this post. I was scrolling through Aliexpress for cheap components for my ESP32 and found this, a LCD Display module for £3. Since we don't want to solder, make sure to choose the IIC LCD1602. 
+I lied, the screen is actually £3.46 upon editing this post. I was scrolling through Aliexpress for cheap components for my ESP32 and found this, [Aliexpress Link](https://www.aliexpress.com/item/1005006100081942.html?invitationCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&srcSns=sns_Copy&spreadType=socialShare&social_params=61554315384&bizType=ProductDetail&spreadCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&aff_fcid=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&tt=MG&aff_fsk=_EJewm9y&aff_platform=default&sk=_EJewm9y&aff_trace_key=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&shareId=61554315384&businessType=ProductDetail&platform=AE&terminal_id=3eb805147cb5464c863135f9e4096156&afSmartRedirect=y) a LCD Display module for £3. Since we don't want to solder, make sure to choose the IIC LCD1602. 
 
 Why a IIC LCD1602?, Because the display module has a little backpack called an ICC. An ICC module helps reduce the amount of wires to connect to the display and additionally allows us to use jumper wires. Without the ICC we would need to solder the display module. In the image bellow, there are three main types of jumper wires, ideally for the project, we would want male to female or female to female wires because the pins on the ICC make it hard for male to male wires to attach to it.
 
 ![Wires](/assets/images/DuPont-Wire-40-Pin-Male-to-Female-X-3-Jumper-Wires.webp.avif)
 
-[Aliexpress Link](https://www.aliexpress.com/item/1005006100081942.html?invitationCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&srcSns=sns_Copy&spreadType=socialShare&social_params=61554315384&bizType=ProductDetail&spreadCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&aff_fcid=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&tt=MG&aff_fsk=_EJewm9y&aff_platform=default&sk=_EJewm9y&aff_trace_key=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&shareId=61554315384&businessType=ProductDetail&platform=AE&terminal_id=3eb805147cb5464c863135f9e4096156&afSmartRedirect=y)
+
 
 ## Setting up the ESP32 for the Display 
 
