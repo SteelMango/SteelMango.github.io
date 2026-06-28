@@ -7,4 +7,8 @@ image: /assets/images/liquid_display.jpg
 ---
 
 ![Image of Liquid Display](/assets/images/liquid_display.jpg)
-Testing website
+In this post I explain simply how to set up a L2C Display module without soldering and staying to the breadboard/jumperwires.
+
+## Where I Brought the Screen 
+I lied, the screen is actually £2.44 upon editing this post. 
+![Aliexpress store](/assets/images/aliexpress_dispaly.jpg)
