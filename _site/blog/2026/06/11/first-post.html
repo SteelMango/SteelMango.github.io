@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Building My First Website with GitHub Pages (and the Mistakes I Made) | SteelMango</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Building My First Website with GitHub Pages (and the Mistakes I Made)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Penelope Farquharson Blog of Computer Science/Cyber Security Explained simply with Computational Thinking!" />
+<meta property="og:description" content="Penelope Farquharson Blog of Computer Science/Cyber Security Explained simply with Computational Thinking!" />
+<link rel="canonical" href="http://localhost:4001/blog/2026/06/11/first-post.html" />
+<meta property="og:url" content="http://localhost:4001/blog/2026/06/11/first-post.html" />
+<meta property="og:site_name" content="SteelMango" />
+<meta property="og:image" content="http://localhost:4001/assets/images/website_img.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-11T11:30:00+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4001/assets/images/website_img.png" />
+<meta property="twitter:title" content="Building My First Website with GitHub Pages (and the Mistakes I Made)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-11T11:30:00+01:00","datePublished":"2026-06-11T11:30:00+01:00","description":"Penelope Farquharson Blog of Computer Science/Cyber Security Explained simply with Computational Thinking!","headline":"Building My First Website with GitHub Pages (and the Mistakes I Made)","image":"http://localhost:4001/assets/images/website_img.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/blog/2026/06/11/first-post.html"},"url":"http://localhost:4001/blog/2026/06/11/first-post.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4001/feed.xml" title="SteelMango" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">SteelMango</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/writeups/">CTF Write Ups</a><a class="page-link" href="/readings/">Readings</a><a class="page-link" href="/About/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Building My First Website with GitHub Pages (and the Mistakes I Made)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2026-06-11T11:30:00+01:00" itemprop="datePublished">Jun 11, 2026
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/assets/images/first_website.png" alt="Screenshot of my finished GitHub Pages site" /></p>
+
+<p>I built a live website for free without touching any web development languages, messing around with HTTP servers, or paying for a domain.
+This blog exists to document my journey learning Computer Science and Cyber Security. Although my background is technical, I’m writing for everyone: I’ll keep jargon to a minimum so that readers from any background can follow along.</p>
+
+<h2 id="choosing-how-to-host-a-free-website">Choosing How to Host a Free Website</h2>
+<p>Before I did any website building, I needed to plan how I would make a live website that was completely free and with minimal web development languages. I wanted to dedicate more time to actually making projects rather than messing around with web development. Here were the current options:</p>
+
+<ol>
+  <li>GitHub Pages</li>
+  <li>Set up an Apache HTTP server</li>
+  <li>Wix/Wordpress</li>
+</ol>
+
+<p>Setting up an Apache HTTP server requires a computer to always be online and a lot of setting up to do, which has a high barrier to entry and Wix/Wordpress requires a subscription. GitHub Pages on the other hand does not rely on my computer to always be online since it is hosted from GitHubs servers and uses markdown (MD) to create pages.</p>
+
+<h2 id="setting-up-the-github-account-for-gitpages">Setting Up the GitHub Account for GitPages</h2>
+<p>Since I already owned a GitHub account, the next step I needed to do is to understand how I would make a GitHub Pages website. GitHub has a multitude of handy documentation pages, that guides you step by step on setting up your own GitHub Page. 
+<a href="https://docs.github.com/en/pages/quickstart">GitHub Documents</a>
+<a href="https://github.com/signup?source=login">Create Your GitHub Account here</a></p>
+
+<h2 id="the-subscribe-via-rss-link-i-never-wrote">The “Subscribe via RSS” Link I Never Wrote</h2>
+<p><img src="/assets/images/subrss.png" alt="Screenshot of the Subscribe via RSS" />
+Once the website was live, I noticed underneath my first post there was caption I never wrote: “Subscribe via RSS”. After a few minuites of Googling to why there was this line of text on my website, I found an old GitHub fourm relating to this issue.
+<a href="https://github.com/jekyll/minima/issues/375">GitHub Link to the Issue</a></p>
+
+<p>One of the problems is how the current repository (where folders and files are organised) is made. home.html and _layouts folder was not created. Since the website did not download the Minima template to the GitHub repository, some critcial files that were important in formating the website were missing.</p>
+
+<p><img src="/assets/images/repo_without_layouts.png" alt="Screenshot of the Repository without the home.html and _layout folder" /></p>
+
+<p>My reasoning for not downloading the Minima template is due to Abstraction. In Computer Science Education, there is a concept called Computational Thinking. In simple terms, breaking down a problem into managable steps and problem solving. Abstraction is the process of removing irelevant details in order to solve a problem and since this post is aimed for the general audience, I want to minimise the amount of confusion to setting up a website. (A theme I would like to continue in future posts)</p>
+
+<p><a href="https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf">If you want to read more about Computational Thinking, here is a great paper written by Jeannette M. Wing</a></p>
+
+<p><img src="/assets/images/minima_repo.png" alt="Screenshot of Minima's GitHub Repository" /></p>
+
+<p>Looking at Minima’s GitHub repo, a beginner would be so confused with the different folders and the user would need to know basic command line Git commands to be able to get all these files to their computer. That is why during the development of the website, I avoided using Git CLI (cli = Command Line Interface) and instead use a graphical based Git.</p>
+
+  </div><a class="u-url" href="/blog/2026/06/11/first-post.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">SteelMango</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">SteelMango</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Penelope Farquharson | Blog of Computer Science/Cyber Security Explained simply with Computational Thinking!</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

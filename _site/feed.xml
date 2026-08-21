@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2026-08-21T22:39:18+01:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">SteelMango</title><subtitle>Penelope Farquharson | Blog of Computer Science/Cyber Security Explained simply with Computational Thinking!</subtitle><entry><title type="html">Setting up a £3 L2C Display module</title><link href="http://localhost:4001/hardware/2026/06/28/setting-l2c-screen.html" rel="alternate" type="text/html" title="Setting up a £3 L2C Display module" /><published>2026-06-28T11:00:00+01:00</published><updated>2026-06-28T11:00:00+01:00</updated><id>http://localhost:4001/hardware/2026/06/28/setting-l2c-screen</id><content type="html" xml:base="http://localhost:4001/hardware/2026/06/28/setting-l2c-screen.html"><![CDATA[<p><img src="/assets/images/liquid_display.jpg" alt="Image of Liquid Display" /></p>
+
+<p>In this post I explain simply how to set up a L2C Display module without soldering and staying to the breadboard/jumperwires, ideal for beginners who own a ESP-32.</p>
+
+<h2 id="where-i-brought-the-screen">Where I Brought the Screen</h2>
+<p>I lied, the screen is actually £3.46 upon editing this post. I was scrolling through Aliexpress for cheap components for my ESP32 and found this, <a href="https://www.aliexpress.com/item/1005006100081942.html?invitationCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&amp;srcSns=sns_Copy&amp;spreadType=socialShare&amp;social_params=61554315384&amp;bizType=ProductDetail&amp;spreadCode=NkMweS9YbXd3TjBHbEJTRGFOK1RKaDBmcUFEbmZJVHZNa3VZNlh5bXFhaWVQemFTZUJrNWVWT0s1MU1hdTAyWg&amp;aff_fcid=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&amp;tt=MG&amp;aff_fsk=_EJewm9y&amp;aff_platform=default&amp;sk=_EJewm9y&amp;aff_trace_key=d6abd1973f57498cad8784c03e116df7-1782659115028-08384-_EJewm9y&amp;shareId=61554315384&amp;businessType=ProductDetail&amp;platform=AE&amp;terminal_id=3eb805147cb5464c863135f9e4096156&amp;afSmartRedirect=y">Aliexpress Link</a> a LCD Display module for £3. Since we don’t want to solder, make sure to choose the IIC LCD1602.</p>
+
+<p>Why a IIC LCD1602?, Because the display module has a little backpack called an ICC. An ICC module helps reduce the amount of wires to connect to the display and additionally allows us to use jumper wires. Without the ICC we would need to solder the display module. In the image bellow, there are three main types of jumper wires, ideally for the project, we would want male to female or female to female wires because the pins on the ICC make it hard for male to male wires to attach to it.</p>
+
+<p><img src="/assets/images/DuPont-Wire-40-Pin-Male-to-Female-X-3-Jumper-Wires.webp.avif" alt="Wires" /><br /></p>
+
+<h2 id="setting-up-the-esp32-for-the-display">Setting up the ESP32 for the Display</h2>
+
+<p><img src="/assets/images/pinout_esp32.png" alt="Pinout diagram of ESP32" /></p>
+
+<p>Now depending on what ESP32 you have, you would need to check out your specifc ESP32 pinout reference. A pinout reference tells you what each pin on the ESP32 does, for example on the ESP32 Devkit v1, the pin “GND” is ground. This becomes important in a bit to attach the display module to the ESP32.</p>
+
+<p><img src="/assets/images/ICC.webp" alt="ICC of the display" /></p>
+
+<p>Once you have the display module, if you turn it around and see the little backpack (ICC) I mentioned earlier, you’ll see four pins.</p>
+
+<ol>
+  <li>GND</li>
+  <li>VCC</li>
+  <li>SDA</li>
+  <li>SCL</li>
+</ol>
+
+<p>If you have a ESP32 Devkit, connect to these pins:</p>
+<ol>
+  <li>GND = GND</li>
+  <li>VCC = VIN</li>
+  <li>SDA = D21</li>
+  <li>SCL = D22</li>
+</ol>
+
+<p>If you own a different type of ESP32, read your specific pinout diagram, find what pin equals to the VCC, SDA and SCL and connect them.</p>]]></content><author><name></name></author><category term="hardware" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4001/assets/images/liquid_display.jpg" /><media:content medium="image" url="http://localhost:4001/assets/images/liquid_display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I Setup my ESP32 to make Projects Using PlatformIO/VSCode</title><link href="http://localhost:4001/hardware/2026/06/28/settingup-esp32.html" rel="alternate" type="text/html" title="How I Setup my ESP32 to make Projects Using PlatformIO/VSCode" /><published>2026-06-28T11:00:00+01:00</published><updated>2026-06-28T11:00:00+01:00</updated><id>http://localhost:4001/hardware/2026/06/28/settingup-esp32</id><content type="html" xml:base="http://localhost:4001/hardware/2026/06/28/settingup-esp32.html"><![CDATA[<p>In progress!</p>]]></content><author><name></name></author><category term="hardware" /><summary type="html"><![CDATA[In progress!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4001/assets/images/PlatformIOss.png" /><media:content medium="image" url="http://localhost:4001/assets/images/PlatformIOss.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Building My First Website with GitHub Pages (and the Mistakes I Made)</title><link href="http://localhost:4001/blog/2026/06/11/first-post.html" rel="alternate" type="text/html" title="Building My First Website with GitHub Pages (and the Mistakes I Made)" /><published>2026-06-11T11:30:00+01:00</published><updated>2026-06-11T11:30:00+01:00</updated><id>http://localhost:4001/blog/2026/06/11/first-post</id><content type="html" xml:base="http://localhost:4001/blog/2026/06/11/first-post.html"><![CDATA[<p><img src="/assets/images/first_website.png" alt="Screenshot of my finished GitHub Pages site" /></p>
+
+<p>I built a live website for free without touching any web development languages, messing around with HTTP servers, or paying for a domain.
+This blog exists to document my journey learning Computer Science and Cyber Security. Although my background is technical, I’m writing for everyone: I’ll keep jargon to a minimum so that readers from any background can follow along.</p>
+
+<h2 id="choosing-how-to-host-a-free-website">Choosing How to Host a Free Website</h2>
+<p>Before I did any website building, I needed to plan how I would make a live website that was completely free and with minimal web development languages. I wanted to dedicate more time to actually making projects rather than messing around with web development. Here were the current options:</p>
+
+<ol>
+  <li>GitHub Pages</li>
+  <li>Set up an Apache HTTP server</li>
+  <li>Wix/Wordpress</li>
+</ol>
+
+<p>Setting up an Apache HTTP server requires a computer to always be online and a lot of setting up to do, which has a high barrier to entry and Wix/Wordpress requires a subscription. GitHub Pages on the other hand does not rely on my computer to always be online since it is hosted from GitHubs servers and uses markdown (MD) to create pages.</p>
+
+<h2 id="setting-up-the-github-account-for-gitpages">Setting Up the GitHub Account for GitPages</h2>
+<p>Since I already owned a GitHub account, the next step I needed to do is to understand how I would make a GitHub Pages website. GitHub has a multitude of handy documentation pages, that guides you step by step on setting up your own GitHub Page. 
+<a href="https://docs.github.com/en/pages/quickstart">GitHub Documents</a>
+<a href="https://github.com/signup?source=login">Create Your GitHub Account here</a></p>
+
+<h2 id="the-subscribe-via-rss-link-i-never-wrote">The “Subscribe via RSS” Link I Never Wrote</h2>
+<p><img src="/assets/images/subrss.png" alt="Screenshot of the Subscribe via RSS" />
+Once the website was live, I noticed underneath my first post there was caption I never wrote: “Subscribe via RSS”. After a few minuites of Googling to why there was this line of text on my website, I found an old GitHub fourm relating to this issue.
+<a href="https://github.com/jekyll/minima/issues/375">GitHub Link to the Issue</a></p>
+
+<p>One of the problems is how the current repository (where folders and files are organised) is made. home.html and _layouts folder was not created. Since the website did not download the Minima template to the GitHub repository, some critcial files that were important in formating the website were missing.</p>
+
+<p><img src="/assets/images/repo_without_layouts.png" alt="Screenshot of the Repository without the home.html and _layout folder" /></p>
+
+<p>My reasoning for not downloading the Minima template is due to Abstraction. In Computer Science Education, there is a concept called Computational Thinking. In simple terms, breaking down a problem into managable steps and problem solving. Abstraction is the process of removing irelevant details in order to solve a problem and since this post is aimed for the general audience, I want to minimise the amount of confusion to setting up a website. (A theme I would like to continue in future posts)</p>
+
+<p><a href="https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf">If you want to read more about Computational Thinking, here is a great paper written by Jeannette M. Wing</a></p>
+
+<p><img src="/assets/images/minima_repo.png" alt="Screenshot of Minima's GitHub Repository" /></p>
+
+<p>Looking at Minima’s GitHub repo, a beginner would be so confused with the different folders and the user would need to know basic command line Git commands to be able to get all these files to their computer. That is why during the development of the website, I avoided using Git CLI (cli = Command Line Interface) and instead use a graphical based Git.</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4001/assets/images/website_img.png" /><media:content medium="image" url="http://localhost:4001/assets/images/website_img.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
