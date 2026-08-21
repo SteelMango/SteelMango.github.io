@@ -10,8 +10,10 @@ published: true
 
 ![Screenshot of my finished GitHub Pages site](/assets/images/first_website.png)
 
-I built a live website for free without touching any web development languages, messing around with HTTP servers, or paying for a domain.
-This blog exists to document my journey learning Computer Science and Cyber Security. Although my background is technical, I'm writing for everyone: I'll keep jargon to a minimum so that readers from any background can follow along.
+I built a live website for free with a real URL (not localhost lol). The site becamse live without touching any web development languages, all ideal for someone who is tight on money.
+One of the main reasons this blog exists is to document building things for cheap. Online tutorials usually redirect people to services that require monthly payment to keep their website online, which when you are tight on money, it isnt the best option.
+
+Although my background is technical, graduate in Bsc(Hons)Cyber Security at Lancaster University, I'm writing for everyone, so that readers from any background; secondary school student, truck driver and a nurse can follow along. 
 
 ## Choosing How to Host a Free Website 
 Before I did any website building, I needed to plan how I would make a live website that was completely free and with minimal web development languages. I wanted to dedicate more time to actually making projects rather than messing around with web development. Here were the current options:
