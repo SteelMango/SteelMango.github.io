@@ -4,20 +4,22 @@
 @import "minima";
 
 .post-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 24px;
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
 .post-list-item {
-  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
 }
 
 .post-thumbnail-link {
   display: block;
+  flex: 0 0 168px;
+  width: 168px;
 }
 
 .post-thumbnail {
@@ -34,7 +36,8 @@
 }
 
 .post-list-text {
-  padding-top: 8px;
+  flex: 1;
+  min-width: 0;
 
   h3 {
     margin-top: 0;
