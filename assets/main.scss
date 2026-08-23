@@ -3,6 +3,11 @@
 
 @import "minima";
 
+.post-content img {
+  display: block;
+  margin: 0 auto;
+}
+
 .post-list {
   list-style: none;
   margin-left: 0;
