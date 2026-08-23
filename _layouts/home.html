@@ -9,10 +9,12 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {%- assign home_posts = site.posts | where_exp: "post", "post.categories == null or post.categories contains 'notes' == false" -%}
+
+  {%- if home_posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in home_posts -%}
       <li class="post-list-item">
         <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
           {%- if post.image -%}

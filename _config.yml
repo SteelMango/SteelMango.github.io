@@ -4,5 +4,6 @@ description: Blog of Computer Science/Cyber Security Explained simply with Compu
 header_pages:
   - projects.md
   - writeups.md
+  - notes.md
   - readings.md
   - about.md
