@@ -34,4 +34,8 @@ So lets go into google street view, into the villege of Казан-Куйган.
 
 ![street view](/assets/images/kergmap.png)
 
+When I was searching for the building I was also activly looking for the yellow building. However the photo that was taken is relively new and the google street view was last updated in October 2025, yet you can still see the reminance of the old brick building in both photos and the unique red sign.
+
+![oldvsnew](/assets/images/oldnew.png)
+
 # Post in Progress
