@@ -30,4 +30,8 @@ In the Wiki site of Kyrgyzstan you can see the same flag found in the photo is t
 
 ![comparing flags](/assets/images/flagofkurg.png)
 
+So lets go into google street view, into the villege of Казан-Куйган. When I am looking around im trying to find that noticable mountain. I find the same mountain on the A365 Naryn region when looking slightly west.
+
+![street view](/assets/images/kergmap.png)
+
 # Post in Progress
