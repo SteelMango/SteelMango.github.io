@@ -42,4 +42,3 @@ However, if you look at google map with the yellow person, it shows what the bui
 ![libary](/assets/images/libary.png)
 
 The answer is Libary
-# Post in Progress
