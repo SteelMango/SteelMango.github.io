@@ -38,8 +38,8 @@ When I was searching for the building I was also activly looking for the yellow 
 
 ![oldvsnew](/assets/images/oldnew.png)
 
-I also searched the building and found a video of a person recording the town, even translating the video gave no hints to what the building was.
+However, if you look at google map with the yellow person, it shows what the building is.
+![libary](/assets/images/libary.png)
 
-![tiktok](/assets/images/tiktok.png)
-
+The answer is Libary
 # Post in Progress
