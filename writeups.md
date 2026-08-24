@@ -5,6 +5,8 @@ permalink: /writeups/
 ---
 
 ## CTF
+
+<ul class="post-list">
 {%- for post in site.categories.ctf -%}
 <li class="post-list-item">
     <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
@@ -28,7 +30,9 @@ permalink: /writeups/
 
 
 ## OSINT
-{%- for post in site.categories.osint-%}
+
+<ul class="post-list">
+{%- for post in site.categories.osint -%}
 <li class="post-list-item">
     <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
       {%- if post.image -%}

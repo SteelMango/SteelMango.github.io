@@ -13,9 +13,36 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      {%- if post.categories contains "notes" -%}
+      {%- if post.categories contains "notes" or post.categories contains "ctf" or post.categories contains "osint" -%}
         {%- continue -%}
       {%- endif -%}
+      <li class="post-list-item">
+        <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
+          {%- if post.image -%}
+          <img class="post-thumbnail" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+          {%- else -%}
+          <div class="post-thumbnail post-thumbnail--placeholder"></div>
+          {%- endif -%}
+        </a>
+        <div class="post-list-text">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {%- assign writeup_posts = site.posts | where_exp: "post", "post.categories contains 'ctf' or post.categories contains 'osint'" -%}
+  {%- if writeup_posts.size > 0 -%}
+    <h2 class="post-list-heading">Latest Write Ups</h2>
+    <ul class="post-list">
+      {%- for post in writeup_posts -%}
       <li class="post-list-item">
         <a class="post-thumbnail-link" href="{{ post.url | relative_url }}">
           {%- if post.image -%}
