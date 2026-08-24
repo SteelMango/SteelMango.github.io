@@ -38,7 +38,14 @@ layout: default
     </ul>
   {%- endif -%}
 
-  {%- assign writeup_posts = site.posts | where_exp: "post", "post.categories contains 'ctf' or post.categories contains 'osint'" -%}
+  {%- assign writeup_posts = "" | split: "," -%}
+  {%- if site.categories.ctf -%}
+    {%- assign writeup_posts = writeup_posts | concat: site.categories.ctf -%}
+  {%- endif -%}
+  {%- if site.categories.osint -%}
+    {%- assign writeup_posts = writeup_posts | concat: site.categories.osint -%}
+  {%- endif -%}
+  {%- assign writeup_posts = writeup_posts | sort: "date" | reverse -%}
   {%- if writeup_posts.size > 0 -%}
     <h2 class="post-list-heading">Latest Write Ups</h2>
     <ul class="post-list">
