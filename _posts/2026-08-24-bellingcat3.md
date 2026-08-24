@@ -38,4 +38,8 @@ When I was searching for the building I was also activly looking for the yellow 
 
 ![oldvsnew](/assets/images/oldnew.png)
 
+I also searched the building and found a video of a person recording the town, even translating the video gave no hints to what the building was.
+
+![tiktok](/assets/images/tiktok.png)
+
 # Post in Progress
